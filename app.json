@@ -1,0 +1,13 @@
+{
+  "name": "WordPress Heroku PHP",
+  "description": "Template for deploying WordPress to Heroku",
+  "repository": "git@github.com:Batname/GameSensorsWeb.git",
+  "success_url": "/",
+  "addons": [
+    "cleardb",
+    "sendgrid",
+    "memcachier",
+    "papertrail",
+    "newrelic"
+  ]
+}
