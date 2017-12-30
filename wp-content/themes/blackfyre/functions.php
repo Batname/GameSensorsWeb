@@ -343,7 +343,7 @@ function blackfyre_theme_setup() {
 	add_action( 'admin_init', 'add_theme_caps');
 
 	/*check if user is active*/
-	add_action('wp_login', 'blackfyre_user_active_check', 10, 2);
+	//add_action('wp_login', 'blackfyre_user_active_check', 10, 2);
 
     /*****FILTERS*****/
 
@@ -3814,7 +3814,7 @@ function blackfyre_user_active_check($user_login, $user){
 	}
 
 }
-add_action('wp_login', 'blackfyre_user_active_check', 10, 2);
+//add_action('wp_login', 'blackfyre_user_active_check', 10, 2);
 
 
 /*cut content withour breaking html*/
